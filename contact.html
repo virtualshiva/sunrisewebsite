@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunrise HR Solution</title>
+    <style>
+        label {
+            font-size: 15px;
+        }
+
+        .custom-icon p {
+            font-size: 12px;
+        }
+
+        .btn-send:hover a {
+            color: #ffffff;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="./images/Logo.png">
+    <!-- external css link inserted -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- bootstrap cdn link inserted by shibu -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- favicon inserted  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/Logo.jpg" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header class="header" id="top">
+        <a href="/index.html" class="logo"><img src="./images/Logo.jpg" alt="" /></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">home</a></li>
+                <li><a href="index.html#about">about</a></li>
+                <li><a href="index.html#service">chairman</a></li>
+                <li><a href="index.html#portfolio">manager </a></li>
+                <li><a href="index.html#team">team</a></li>
+                <li><a href="careers.html">categories</a></li>
+                <li><a href="index.html#contact">contact</a></li>
+                <li><a href="index.html#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home" style="background-image: url('images/contact.jpg');">
+        <div class="row">
+
+            <h1> Sunrise HR Solution Pvt Ltd</h1>
+            <h2 class> &lt;//Contact Us &gt;</h2>
+            <div class="wave wave1 "></div>
+            <div class="wave wave2  "></div>
+            <div class="wave wave3   "></div>
+        </div>
+        </div>
+    </section>
+
+    <div id="about" class="about">
+        <h1 class="heading">Contact Us</h1>
+        <div class="row">
+            <div class="content">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7657.379228295019!2d85.3359463478162!3d27.724071171236503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19f5323fb707%3A0x3bef7b9bf7d42df9!2sSukedhara%20bus%20stop%20%F0%9F%9A%8F!5e0!3m2!1sen!2snp!4v1671213228304!5m2!1sen!2snp"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Section: Contact v.2-->
+    <section class="mb-4 p-5">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">We Recieve Your Message</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5" style="font-size: 15px;">Do you have any questions? Please do
+            not hesitate to contact us
+            directly. Our team will come back to you within
+            a matter of hours to help you.</p>
+
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form action="./contactme.php" method="POST">
+                    <input type="text" name="name" placeholder="Name" class="contact-form-txt" required />
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number"
+                        maxlength="10" class="contact-form-phone" />
+                    <input type="email" name="email" placeholder="Email" class="contact-form-email"
+                        style="text-transform: lowercase;" required />
+                    <textarea placeholder="Your Message" name="message" class="contact-form-txtarea"
+                        required></textarea>
+                    <input type="submit" value="Submit" name="submit" class="contact-form-btn" />
+                </form>
+                <div class="status"></div>
+            </div>
+
+            <div class="col-md-3 text-center custom-icon">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Sukedhara, Kathmandu, Nepal</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 01 45 59 07 848</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p style="text-transform: lowercase;">info@sunrise-hr-solution.com.np</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    <!--Section: Contact v.2-->
+
+
+
+
+    <!-- footer started -->
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i> <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="index.html#about">About us</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="#">Chairman</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="index.html#">Terms & condition</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="index.html#">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="index.html#portfolio2">Markeing Manager</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i> <a href="index.html#team">Team</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="careers.html">Categories</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i>
+                                <a href="index.html#contact">Contact</a>
+                            </li>
+                            <li>
+                                <i class="ion-ios-arrow-forward"></i> <a href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem">
+                        <h4>Contact Us</h4>
+                        <p>
+                            Sukedhara, Kathmandu<br />
+                            Nepal <br />
+                            <strong>Phone:</strong> +01-5907848<br />
+                            <strong>Email:</strong> info@sunrise-hr-solution.com.np<br />
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Some words</h4>
+                        <p>
+                            With Our Skills Put Together, You Get An Ensemble Capable Of
+                            Doing Anything And Everything You Need.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem">
+                    Copyright &copy; 2022 Sunrise HR Solution Pvt Ltd. All Rights
+                    Reserved.<br/> Created by
+                    <a href="http://rohanchhetry.com.np" style="color: #fff" target="_blank" rel="noopener noreferrer">Rohan Chhetry</a>,
+                    <a href="#" style="color: #fff" target="_blank" rel="noopener noreferrer">Raj Maharjan</a> &
+                    <a href="http://shivalimbu.com.np" style="color: #fff" target="_blank" rel="noopener noreferrer">Shiva Kumar Limbu</a>,
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
